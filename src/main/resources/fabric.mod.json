@@ -1,33 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "betterendsky",
   "version": "${version}",
-  "name": "",
+  "name": "Better End Sky",
   "description": "",
   "authors": [
     "Huaji_MUR233"
   ],
   "contact": {
     "homepage": "https://github.com/HuajiMUR233",
-    "sources": "https://github.com/HuajiMUR233/"
+    "sources": "https://github.com/HuajiMUR233/BetterEndSky"
   },
 
   "license": "WTFPL-3.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/betterendsky/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
-    "main": [
-      "me.jvav."
+    "client": [
+      "me.jvav.betterendsky.BetterEndSky"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.12.12",
-    "minecraft": "1.18.x",
-    "java": ">=17"
+    "fabric-rendering-v1": "*"
   }
 }
